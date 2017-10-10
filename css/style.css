@@ -2,11 +2,23 @@ html,body {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
+	color: white;
+
 }
+
+body{
+	background-image: url(../image/tint.jpg);
+	background-repeat: no-repeat;
+	background-position: -447px 0;
+}
+
+	
+
 
 .main-header {
 	
 	background-color: #000000;
+	margin-bottom: 60px;
 }
 
 .container {
@@ -18,6 +30,21 @@ html,body {
 .main-navigation {
 	width: 780px;
 	float: left;
+	
+}
+ .main-header .user-block  {
+    
+    text-align: center;
+    
+}
+
+.user-block a {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.main-navigation li {
+	display: inline-block;
 }
 
 .user-block {
@@ -39,6 +66,10 @@ html,body {
 	margin-bottom: 25px;
 }
 
+.index-logo img {
+	z-index: 5000;
+}
+
 .features {
     margin-bottom: 80px;
 }
@@ -51,4 +82,9 @@ html,body {
 
 .features-item:last-child {
 	margin-right: 0;
+}
+
+.features-name {
+	text-align: center;
+	display: block;
 }
