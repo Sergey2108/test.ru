@@ -1,4 +1,54 @@
-h2 {
+html,body {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.main-header {
 	
-	color: aqua;
+	background-color: #000000;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-navigation {
+	width: 780px;
+	float: left;
+}
+
+.user-block {
+	width: 140px;
+	float: right;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.index-logo {
+	width: 368px;
+	height: 204px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.features-item:last-child {
+	margin-right: 0;
 }
