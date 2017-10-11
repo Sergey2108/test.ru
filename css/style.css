@@ -1,3 +1,4 @@
+
 html,body {
 	margin: 0;
 	padding: 0;
@@ -38,14 +39,6 @@ body{
     
 }
 
-.user-block a {
-	vertical-align: middle;
-	display: inline-block;
-}
-
-.main-navigation li {
-	display: inline-block;
-}
 
 .user-block {
 	width: 140px;
@@ -87,4 +80,9 @@ body{
 .features-name {
 	text-align: center;
 	display: block;
+=======
+h2 {
+	
+	color: aqua;
+>>>>>>> parent of 5d915f9... Верстка 17:20 10.10.2017
 }
